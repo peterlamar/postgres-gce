@@ -60,7 +60,7 @@ fi
 echo "Download dump $DUMP from $BUCKET"
 
 gsutil cp gs://$BUCKET/$DUMP $DUMP
-s
+
 # Drop database before restore
 if [[ $DROP = "yes" ]]; then
 	psql -U $PGUSER -h $PGHOST -d $PGDATABASE -c "drop schema public cascade; create schema public;"
