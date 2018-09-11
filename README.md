@@ -15,12 +15,19 @@ project.
 List and description of environment variables need to set:
 
 PGPASSWORD - password for access a database
+
 PGUSER - PostgreSQL user
+
 PGHOST - PostgreSQL server address
+
 PGPORT - PostgreSQL server port
+
 BUCKET - Google Storage bucket for store backups
+
 PGDATABASE - database for backup
+
 DUMP - filename of dump in bucket
+
 DROP - Drop schema 'public' and everything in it in database. Set to "yes" to
 use it.
 
