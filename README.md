@@ -1,5 +1,5 @@
 # postgres-gce
-Automation for Postgres in Google Cloud
+Automation for Postgres in Google Cloud. This script will restore a postgress database from a backup file stored in google storage. It also has a docker option for extensibility. It is meant to enable automated restoration of a database. 
 
 ## Build
 
